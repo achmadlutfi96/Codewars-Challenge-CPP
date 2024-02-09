@@ -18,6 +18,9 @@ int positive_sum (const std::vector<int> arr){
         result += number > 0 ? number : 0;
     }
     return result;
+
+    // Alternative 2
+    // return std::accumulate(arr.begin(), arr.end(), 0, [](int a, int b) { return a + std::max(0, b); });
 }
 
 int main(){
