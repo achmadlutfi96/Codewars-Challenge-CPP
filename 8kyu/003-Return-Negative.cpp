@@ -11,8 +11,8 @@ int makeNegative(int num)
 }
 
 int main(){
-    cout<<makeNegative(42)<<"\n";
-    cout<<makeNegative(-42)<<"\n";
+    cout<<makeNegative(42)<<endl;
+    cout<<makeNegative(-42)<<endl;
     cout<<makeNegative(0);
     return 0;
 }

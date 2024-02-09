@@ -24,7 +24,7 @@ int positive_sum (const std::vector<int> arr){
 }
 
 int main(){
-    cout<<positive_sum(std::vector <int> {1,2,3,4,5})<<"\n";
+    cout<<positive_sum(std::vector <int> {1,2,3,4,5})<<endl;
     cout<<positive_sum(std::vector <int> {1,-2,3,4,5});
     return 0;
 }
