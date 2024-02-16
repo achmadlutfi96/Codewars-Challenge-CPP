@@ -3,6 +3,7 @@
 
 int string_to_number(const std::string& s) {
   //your code here
+  // function stoi for string to integer convert
   return stoi(s);
 }
 
