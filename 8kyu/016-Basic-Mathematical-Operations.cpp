@@ -4,17 +4,19 @@ using namespace std;
 
 int basicOp(char op, int val1, int val2) {
   // Your code here
+    int res = 0;
     switch (op)
     {
     case '+':
-        return val1+val2;
-    case '-':
-        return val1-val2;
+        res=val1+val2;break;
+    case '-' :
+        res=val1-val2;break;
     case '*':
-        return val1*val2;
+        res=val1*val2;break;
     case '/':
-        return val1/val2;
+        res=val1/val2;break;
     }
+    return res;
 }
 
 int main(){
